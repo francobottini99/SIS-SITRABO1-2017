@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dtsConsultas" targetNamespace="http://tempuri.org/dtsConsultas.xsd" xmlns:mstns="http://tempuri.org/dtsConsultas.xsd" xmlns="http://tempuri.org/dtsConsultas.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dtsConsultas" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dtsConsultas" msprop:Generator_UserDSName="dtsConsultas">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtAlimentacion" msprop:Generator_TableClassName="dtAlimentacionDataTable" msprop:Generator_TableVarName="tabledtAlimentacion" msprop:Generator_TablePropName="dtAlimentacion" msprop:Generator_RowDeletingName="dtAlimentacionRowDeleting" msprop:Generator_RowChangingName="dtAlimentacionRowChanging" msprop:Generator_RowEvHandlerName="dtAlimentacionRowChangeEventHandler" msprop:Generator_RowDeletedName="dtAlimentacionRowDeleted" msprop:Generator_UserTableName="dtAlimentacion" msprop:Generator_RowChangedName="dtAlimentacionRowChanged" msprop:Generator_RowEvArgName="dtAlimentacionRowChangeEvent" msprop:Generator_RowClassName="dtAlimentacionRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idProductor" msprop:Generator_ColumnVarNameInTable="columnidProductor" msprop:Generator_ColumnPropNameInRow="idProductor" msprop:Generator_ColumnPropNameInTable="idProductorColumn" msprop:Generator_UserColumnName="idProductor" type="xs:string" minOccurs="0" />
+              <xs:element name="RazonSocial" msprop:Generator_ColumnVarNameInTable="columnRazonSocial" msprop:Generator_ColumnPropNameInRow="RazonSocial" msprop:Generator_ColumnPropNameInTable="RazonSocialColumn" msprop:Generator_UserColumnName="RazonSocial" type="xs:string" minOccurs="0" />
+              <xs:element name="idCorrales" msprop:Generator_ColumnVarNameInTable="columnidCorrales" msprop:Generator_ColumnPropNameInRow="idCorrales" msprop:Generator_ColumnPropNameInTable="idCorralesColumn" msprop:Generator_UserColumnName="idCorrales" type="xs:string" minOccurs="0" />
+              <xs:element name="NombreCorral" msprop:Generator_ColumnVarNameInTable="columnNombreCorral" msprop:Generator_ColumnPropNameInRow="NombreCorral" msprop:Generator_ColumnPropNameInTable="NombreCorralColumn" msprop:Generator_UserColumnName="NombreCorral" type="xs:string" minOccurs="0" />
+              <xs:element name="CabezasTotales" msprop:Generator_ColumnVarNameInTable="columnCabezasTotales" msprop:Generator_ColumnPropNameInRow="CabezasTotales" msprop:Generator_ColumnPropNameInTable="CabezasTotalesColumn" msprop:Generator_UserColumnName="CabezasTotales" type="xs:string" minOccurs="0" />
+              <xs:element name="Tropa_idTropas" msprop:Generator_ColumnVarNameInTable="columnTropa_idTropas" msprop:Generator_ColumnPropNameInRow="Tropa_idTropas" msprop:Generator_ColumnPropNameInTable="Tropa_idTropasColumn" msprop:Generator_UserColumnName="Tropa_idTropas" type="xs:string" minOccurs="0" />
+              <xs:element name="Cabezas" msprop:Generator_ColumnVarNameInTable="columnCabezas" msprop:Generator_ColumnPropNameInRow="Cabezas" msprop:Generator_ColumnPropNameInTable="CabezasColumn" msprop:Generator_UserColumnName="Cabezas" type="xs:string" minOccurs="0" />
+              <xs:element name="CabezasTropa" msprop:Generator_ColumnVarNameInTable="columnCabezasTropa" msprop:Generator_ColumnPropNameInRow="CabezasTropa" msprop:Generator_ColumnPropNameInTable="CabezasTropaColumn" msprop:Generator_UserColumnName="CabezasTropa" type="xs:string" minOccurs="0" />
+              <xs:element name="Fecha" msprop:Generator_ColumnVarNameInTable="columnFecha" msprop:Generator_ColumnPropNameInRow="Fecha" msprop:Generator_ColumnPropNameInTable="FechaColumn" msprop:Generator_UserColumnName="Fecha" type="xs:string" minOccurs="0" />
+              <xs:element name="KgRacion" msprop:Generator_ColumnVarNameInTable="columnKgRacion" msprop:Generator_ColumnPropNameInRow="KgRacion" msprop:Generator_ColumnPropNameInTable="KgRacionColumn" msprop:Generator_UserColumnName="KgRacion" type="xs:string" minOccurs="0" />
+              <xs:element name="KgGrano" msprop:Generator_ColumnVarNameInTable="columnKgGrano" msprop:Generator_ColumnPropNameInRow="KgGrano" msprop:Generator_ColumnPropNameInTable="KgGranoColumn" msprop:Generator_UserColumnName="KgGrano" type="xs:string" minOccurs="0" />
+              <xs:element name="KgConcentrado" msprop:Generator_ColumnVarNameInTable="columnKgConcentrado" msprop:Generator_ColumnPropNameInRow="KgConcentrado" msprop:Generator_ColumnPropNameInTable="KgConcentradoColumn" msprop:Generator_UserColumnName="KgConcentrado" type="xs:string" minOccurs="0" />
+              <xs:element name="KgFibra" msprop:Generator_ColumnVarNameInTable="columnKgFibra" msprop:Generator_ColumnPropNameInRow="KgFibra" msprop:Generator_ColumnPropNameInTable="KgFibraColumn" msprop:Generator_UserColumnName="KgFibra" type="xs:string" minOccurs="0" />
+              <xs:element name="KgOtros" msprop:Generator_ColumnVarNameInTable="columnKgOtros" msprop:Generator_ColumnPropNameInRow="KgOtros" msprop:Generator_ColumnPropNameInTable="KgOtrosColumn" msprop:Generator_UserColumnName="KgOtros" type="xs:string" minOccurs="0" />
+              <xs:element name="ImporteGrano" msprop:Generator_ColumnVarNameInTable="columnImporteGrano" msprop:Generator_ColumnPropNameInRow="ImporteGrano" msprop:Generator_ColumnPropNameInTable="ImporteGranoColumn" msprop:Generator_UserColumnName="ImporteGrano" type="xs:string" minOccurs="0" />
+              <xs:element name="ImporteConcentrado" msprop:Generator_ColumnVarNameInTable="columnImporteConcentrado" msprop:Generator_ColumnPropNameInRow="ImporteConcentrado" msprop:Generator_ColumnPropNameInTable="ImporteConcentradoColumn" msprop:Generator_UserColumnName="ImporteConcentrado" type="xs:string" minOccurs="0" />
+              <xs:element name="ImporteFibra" msprop:Generator_ColumnVarNameInTable="columnImporteFibra" msprop:Generator_ColumnPropNameInRow="ImporteFibra" msprop:Generator_ColumnPropNameInTable="ImporteFibraColumn" msprop:Generator_UserColumnName="ImporteFibra" type="xs:string" minOccurs="0" />
+              <xs:element name="ImporteOtros" msprop:Generator_ColumnVarNameInTable="columnImporteOtros" msprop:Generator_ColumnPropNameInRow="ImporteOtros" msprop:Generator_ColumnPropNameInTable="ImporteOtrosColumn" msprop:Generator_UserColumnName="ImporteOtros" type="xs:string" minOccurs="0" />
+              <xs:element name="ImporteTotal" msprop:Generator_ColumnVarNameInTable="columnImporteTotal" msprop:Generator_ColumnPropNameInRow="ImporteTotal" msprop:Generator_ColumnPropNameInTable="ImporteTotalColumn" msprop:Generator_UserColumnName="ImporteTotal" type="xs:string" minOccurs="0" />
+              <xs:element name="PorcentajeGrano" msprop:Generator_ColumnVarNameInTable="columnPorcentajeGrano" msprop:Generator_ColumnPropNameInRow="PorcentajeGrano" msprop:Generator_ColumnPropNameInTable="PorcentajeGranoColumn" msprop:Generator_UserColumnName="PorcentajeGrano" type="xs:string" minOccurs="0" />
+              <xs:element name="PorcentajeConc" msprop:Generator_ColumnVarNameInTable="columnPorcentajeConc" msprop:Generator_ColumnPropNameInRow="PorcentajeConc" msprop:Generator_ColumnPropNameInTable="PorcentajeConcColumn" msprop:Generator_UserColumnName="PorcentajeConc" type="xs:string" minOccurs="0" />
+              <xs:element name="PorcentajeFibra" msprop:Generator_ColumnVarNameInTable="columnPorcentajeFibra" msprop:Generator_ColumnPropNameInRow="PorcentajeFibra" msprop:Generator_ColumnPropNameInTable="PorcentajeFibraColumn" msprop:Generator_UserColumnName="PorcentajeFibra" type="xs:string" minOccurs="0" />
+              <xs:element name="PorcentajeOtros" msprop:Generator_ColumnVarNameInTable="columnPorcentajeOtros" msprop:Generator_ColumnPropNameInRow="PorcentajeOtros" msprop:Generator_ColumnPropNameInTable="PorcentajeOtrosColumn" msprop:Generator_UserColumnName="PorcentajeOtros" type="xs:string" minOccurs="0" />
+              <xs:element name="CostoRacion" msprop:Generator_ColumnVarNameInTable="columnCostoRacion" msprop:Generator_ColumnPropNameInRow="CostoRacion" msprop:Generator_ColumnPropNameInTable="CostoRacionColumn" msprop:Generator_UserColumnName="CostoRacion" type="xs:string" minOccurs="0" />
+              <xs:element name="CostoTropa" msprop:Generator_ColumnVarNameInTable="columnCostoTropa" msprop:Generator_ColumnPropNameInRow="CostoTropa" msprop:Generator_ColumnPropNameInTable="CostoTropaColumn" msprop:Generator_UserColumnName="CostoTropa" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

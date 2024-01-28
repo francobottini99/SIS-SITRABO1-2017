@@ -1,0 +1,1 @@
+Server=localhost;Uid=root;Pwd=cjb23;Database=Feedlot
