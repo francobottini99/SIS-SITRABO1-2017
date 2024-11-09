@@ -1,27 +1,27 @@
-# SIEGAN - Sistema de Gestión para el Manejo de un Establecimiento Ganadero #1
+# SIEGAN - Management System for Livestock Farm Management #1
 
-SIEGAN es un sistema integral de gestión diseñado para facilitar el manejo eficiente de un establecimiento ganadero. Este proyecto aborda diversos aspectos clave, como la administración de animales, campos, corrales, proveedores, clientes, gastos, ingresos, tratamientos, vacunas, medicamentos, alimentos, productos, movimientos, pesos, muertes, entre otros.
+SIEGAN is an integrated management system designed to facilitate the efficient management of a livestock farm. This project addresses various key aspects, such as the management of animals, fields, pens, suppliers, customers, expenses, income, treatments, vaccines, medications, food, products, movements, weights, deaths, among others.
 
-### Autores:
+### Authors:
 - **Bottini, Franco Nicolas**
-    
-## Características Principales:
 
-### Gestión de Elementos Clave:
-- **Animales:** Realiza un seguimiento detallado de los animales, incluyendo información sobre especie, raza, fecha de nacimiento, historial médico, y más.
-- **Campos y Corrales:** Administra la distribución de los animales en campos y corrales, facilitando una gestión eficiente del espacio.
-- **Proveedores y Clientes:** Gestiona la información de los proveedores y clientes relacionados con el establecimiento.
+## Main Features:
 
-### Registro de Movimientos y Actividades:
-- **Gastos e Ingresos:** Realiza un seguimiento detallado de los gastos e ingresos asociados con la operación del establecimiento ganadero.
-- **Tratamientos y Vacunas:** Registra los tratamientos médicos, vacunaciones y otras actividades de salud aplicadas a los animales.
-- **Alimentación:** Registra la alimentación diaria de los animales, incluyendo el tipo de alimento, la cantidad y el costo.
-- **Pesos y Muertes:** Registra información sobre el peso de los animales y eventos de muerte.
+### Management of Key Elements:
+- **Animals:** Tracks detailed information about the animals, including species, breed, birthdate, medical history, and more.
+- **Fields and Pens:** Manages the distribution of animals across fields and pens, facilitating efficient space management.
+- **Suppliers and Customers:** Manages the information of suppliers and customers associated with the farm.
 
-## Tecnologías Utilizadas:
+### Recording of Movements and Activities:
+- **Expenses and Income:** Tracks detailed information about the expenses and income associated with the operation of the farm.
+- **Treatments and Vaccines:** Records medical treatments, vaccinations, and other health activities applied to the animals.
+- **Feeding:** Records the daily feeding of the animals, including the type of food, quantity, and cost.
+- **Weights and Deaths:** Records information about the weight of the animals and events of death.
 
-Este sistema ha sido desarrollado utilizando las siguientes tecnologías:
+## Technologies Used:
 
-- **Plataforma:** .NET Framework
-- **Lenguaje de Programación:** VB.NET
-- **Base de Datos:** MySQL
+This system has been developed using the following technologies:
+
+- **Platform:** .NET Framework
+- **Programming Language:** VB.NET
+- **Database:** MySQL
